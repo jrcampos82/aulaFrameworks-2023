@@ -6,7 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 
+
+// git config --global user.email "beto@beto.com.br"
+
 export class AppComponent {
-  title = 'my-app';
-  nome = 'Beto'
+  nome = 'Beto';
+  count = 10;
+
+
+
+   menos(){
+    this.count--;
+  }
+
+  mais(){
+    this.count++;
+  }
+
 }

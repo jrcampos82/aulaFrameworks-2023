@@ -1,7 +1,19 @@
 # GIT e GITHUB
+(
+ git config --system --unset credential.helper
+ git config --global user.name "seunome"
+ git config --global user.email "seuemaildogit"
+)
+
 git status --> verifickar a situação da nossa APP
 
+git add --> adicionar os arquivos a linha do tempo 
 
+git commit -m "msg relacionado oq foi feito" --> gravar a linha do tempo
+
+git push  --> enviar p o github (nuvem)
+
+git clone (copiar o projeto remoto para local) (npm install)
 
 # Instalar e configurar o Angular
 https://angular.io/guide/setup-local
