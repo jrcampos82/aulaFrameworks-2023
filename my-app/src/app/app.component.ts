@@ -13,6 +13,7 @@ export class AppComponent {
   nome = 'Beto';
   count = 10;
 
+  vetor = [10, 20, 30, 40, 50]
 
 
    menos(){
