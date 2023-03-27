@@ -5,9 +5,17 @@
     <button>Add Hero</button>
   </div>
 
-  <ul>
-    <li *ngFor="let hero of heroes">{{ hero }}</li>
-  </ul>
+  <div class="heroes">
+    <ul>
+      <li *ngFor="let hero of heroes">{{ hero }}</li>
+    </ul>
+  </div>
 
-  <h2>{{ hero.nome }}</h2>
+  <div class="card-hero">
+    <div class="titulo">
+      <img src="/assets/logo_ifms.png" class="photo" />
+      <h2>{{ hero.nome }}</h2>
+    </div>
+    <div class="content">Lorem ipsum dolor sit amet.</div>
+  </div>
 </div>
