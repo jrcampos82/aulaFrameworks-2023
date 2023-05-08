@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 80px 1fr;
+  grid-template-columns: 200px 1fr;
+  box-shadow: 0 0 20px 10px #ccc;
+  border-radius: 20px;
+}
+
+.menu {
+  background: #f7f8fa;
+  /* border: 1px solid black; */
+}
+
+.header1 {
+  background: #3e87f0;
+  /* border: 1px solid black; */
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header1 i {
+  font-size: 24px;
+}
+
+.header1 h2 {
+  font-weight: 400;
+}
+
+.header2 {
+  background: #fff;
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header2 i {
+  font-size: 20px;
+  color: #afafaf;
+  margin: 10px;
+}
+
+.menu ul {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.menu ul li {
+  padding: 18px;
+  list-style: none;
+  /* display: flex; */
+  /* align-items: center; */
+}
+
+.menu li a:hover {
+  color: #947dd2;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #696969;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+
+  /* margin-left: 15px; */
+}
+
+.content .ad {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 180px;
+  margin: 30px;
+  gap: 20px;
+}
+
+.content .ad .img {
+  background: #fbe5ca;
+}
+
+.content .ad .graph {
+  background: #f0edfe;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  grid-template-rows: 500px;
+  margin: 30px;
+  gap: 20px;
+}
+
+section .box2 {
+  background: #3af;
+}
+
+.title {
+  background: #e4f7f0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 5px 25px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 4px #eee;
+}
+
+.title button {
+  background: #40c17d;
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  width: 35px;
+  height: 35px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.title span {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 15px;
+}
