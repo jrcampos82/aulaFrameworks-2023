@@ -14,6 +14,8 @@ export class HeroComponent {
 
   heroes = ["Thor", "Homem de Ferro", "Visão", "Thanos"];
 
+  vetorAna = [1, 2, 3, 4, 5, 6, 7]
+
   hero: Hero = {
     id: 1,
     nome: "Capitão América"
