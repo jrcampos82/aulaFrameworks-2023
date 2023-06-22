@@ -5,10 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { LoginComponent } from './components/login/login.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { CreateUserComponent } from './components/create-user/create-user.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { TaskComponent } from './components/task/task.component';
 
 @NgModule({
   declarations: [
@@ -17,15 +18,11 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     LoginComponent,
     PageNotFoundComponent,
     CreateUserComponent,
-    DashboardComponent
+    DashboardComponent,
+    TaskComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule
-
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
